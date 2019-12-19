@@ -18,7 +18,7 @@ The app's database schema and seeds were created in the MySQL workbench, and the
 
 Link to the finished app:
 
-()
+(http://eat-da-burger-kb.herokuapp.com/)
 
 #####Status
 
