@@ -7,6 +7,9 @@ $(function() {
         devoured: newDevoured
       };
   
+
+      if (newDevouredState.devoured) {
+  
       $.ajax("/api/burgers/" + id, {
         type: "PUT",
         data: newDevouredState
@@ -17,7 +20,21 @@ $(function() {
           location.reload();
         }
       );
-    });
+    }
+
+    else {
+      $.ajax("/api/burgersTwo/" + id, {
+        type: "PUT",
+        data: newDevouredState
+      }).then(
+        function() {
+          console.log("changed eat to", newDevoured);
+      
+          location.reload();
+        }
+      );
+    }
+  });
   
     $(".create-form").on("submit", function(event) {
       event.preventDefault();
