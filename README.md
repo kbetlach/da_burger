@@ -22,7 +22,7 @@ Link to the finished app:
 
 (http://eat-da-burger-kb.herokuapp.com/)
 
-######Sources and Inspiration
+# Sources and Inspiration
 
 Despite being a pretty silly app, this was a very valuable assignment. It was a small dose of what full stack development is like where an app utilizes both front and back end approaches. It could be quite challenging wrapping my head around the sheer breadth of files and what was supposed to go where. Understanding how the files interacted with each other and translated to the app was difficult, but a very valuable lesson.
 
