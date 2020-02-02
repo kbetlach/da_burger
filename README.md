@@ -2,7 +2,7 @@
 
 <img width="1080" alt="app" src="https://user-images.githubusercontent.com/53587397/72695797-7ad3e500-3aff-11ea-8c04-9075ff34985d.png">
 
-# Introduction
+## Introduction
 
 Eat-Da-Burger is a simple full stack application that follows the MVC (model view controller) framework. The app utilizes express routing, handlebars.js, and stores data in a MySQL database. It is is very simple - there are two columns listed as "burgers ready for devouring," and "devoured burgers." Burgers listed as ready to be devoured have a button next to them called Devour! Clicking this will move the burger into the devoured burgers column.
 
@@ -12,17 +12,15 @@ At the bottom, users can enter any burger they want in the "What Burger Would Yo
 
 All burgers are stored in a MySQL database.
 
-# Technologies
+## Technologies
 
 The app's database schema and seeds were created in the MySQL workbench, and the coding was done in VS Code using node.js, JavaScript, handlebars.js, and Express. A custom ORM was also utilized. CSS, Bootstrap and Google Fonts were used for the styling of the app.
 
-# Launch
+## Launch
 
-Link to the finished app:
+http://eat-da-burger-kb.herokuapp.com/
 
-(http://eat-da-burger-kb.herokuapp.com/)
-
-# Sources and Inspiration
+## Sources and Inspiration
 
 Despite being a pretty silly app, this was a very valuable assignment. It was a small dose of what full stack development is like where an app utilizes both front and back end approaches. It could be quite challenging wrapping my head around the sheer breadth of files and what was supposed to go where. Understanding how the files interacted with each other and translated to the app was difficult, but a very valuable lesson.
 

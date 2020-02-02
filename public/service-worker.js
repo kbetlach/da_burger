@@ -1,5 +1,4 @@
 //const FILES_TO_CACHE = [
-//    "/",
 //    "/index.html",
 //    "/favorites.html",
 //    "/topic.html",
@@ -9,9 +8,12 @@
 //    "/dist/topic.bundle.js"
 //  ];
 //  
+//      ALL FILES UP HERE? ^^
 //  
 //  const PRECACHE = "precache-v1";
 //  const RUNTIME = "runtime";
+//
+//      BOILERPLATE?
 //  
 //  self.addEventListener("install", event => {
 //    event.waitUntil(
