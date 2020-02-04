@@ -43,7 +43,7 @@ $(function() {
       burger_name: $("#ca").val().trim(),
     };
 
-    $.ajax("/api/burgers/", {
+    $.ajax("/api/burgers/bulk", {
       type: "POST",
       data: newBurger,
       error: function(XMLHttpRequest, textStatus, errorThrown) {
