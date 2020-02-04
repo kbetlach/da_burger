@@ -28,12 +28,13 @@
 	<script> 
 	  if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
-          navigator.serviceWorker.register("serviceworker.js", {scope: "/"}).then(reg => {
+          navigator.serviceWorker.register("service-worker.js", {scope: "/"}).then(reg => {
             console.log("We found your service worker file!", reg);
           });
         });
       }
 	</script>
+	<script src="assets/js/db.js"></script>
 
 	</body>
 </html>
